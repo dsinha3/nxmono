@@ -1,0 +1,7 @@
+applications:
+  - appRoot: 'apps/app'
+    customHeaders:
+    - pattern: '**'
+      headers:
+      - key: 'my-header-1'
+        value: 'custom-header-value-1'
