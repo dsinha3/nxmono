@@ -3,5 +3,11 @@ applications:
     customHeaders:
     - pattern: '**'
       headers:
-      - key: 'my-header-1'
-        value: 'custom-header-value-1'
+      - key: 'app1-header'
+        value: 'app1-value'
+  - appRoot: 'apps/app2'
+    customHeaders:
+    - pattern: '**'
+      headers:
+      - key: 'app2-header'
+        value: 'app2-value'
